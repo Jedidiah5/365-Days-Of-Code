@@ -13,7 +13,7 @@ function createCounter(initialValue = 0) {
     throw new TypeError('initialValue must be a finite number');
   }
 
-  let value = initialValue;
+  let value = ;
 
   return Object.freeze({
     get() {
